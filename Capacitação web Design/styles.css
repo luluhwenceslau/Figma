@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 22.5rem;
+  height: 50rem;
+}
+header {
+  width: 22.5rem;
+  height: 4.75rem;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(54, 35, 169, 0.53) 0%,
+    rgba(97, 15, 126, 0.53) 100%
+  );
+  color: #040b11;
+  text-align: center;
+  font-family: "Joti One";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#info {
+  width: 22.375rem;
+  height: 6.875rem;
+  flex-shrink: 0;
+}
+
+#divisor {
+  width: 22.4375rem;
+  height: 3.875rem;
+  flex-shrink: 0;
+}
